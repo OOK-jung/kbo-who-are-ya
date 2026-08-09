@@ -27,7 +27,7 @@
     "team": "KT",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 27,
     "backNumber": 52,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/51003.jpg"
@@ -49,7 +49,7 @@
     "team": "KT",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 30,
     "backNumber": 53,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/64004.jpg"
@@ -71,7 +71,7 @@
     "team": "KT",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 38,
     "backNumber": 10,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/76290.jpg"
@@ -82,7 +82,7 @@
     "team": "KT",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 25,
     "backNumber": 9,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/53036.jpg"
@@ -115,7 +115,7 @@
     "team": "KT",
     "position": "투수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 29,
     "backNumber": 19,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/65516.jpg"
@@ -191,8 +191,8 @@
     "name": "오원석",
     "team": "KT",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 25,
     "backNumber": 47,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/50859.jpg"
@@ -225,7 +225,7 @@
     "team": "KT",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 23,
     "backNumber": 67,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/51013.jpg"
@@ -258,7 +258,7 @@
     "team": "KT",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 31,
     "backNumber": 33,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/67644.jpg"
@@ -291,7 +291,7 @@
     "team": "KT",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 32,
     "backNumber": 51,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/66706.jpg"
@@ -301,8 +301,8 @@
     "name": "전용주",
     "team": "KT",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 26,
     "backNumber": 29,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/69047.jpg"
@@ -335,7 +335,7 @@
     "team": "KT",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 29,
     "backNumber": 3,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/66606.jpg"
@@ -357,7 +357,7 @@
     "team": "KT",
     "position": "투수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 33,
     "backNumber": 35,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/61666.jpg"
@@ -378,8 +378,8 @@
     "name": "힐리어드",
     "team": "KT",
     "position": "내야수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 32,
     "backNumber": 34,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/56034.jpg"
@@ -401,7 +401,7 @@
     "team": "삼성",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 33,
     "backNumber": 5,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/62404.jpg"
@@ -423,7 +423,7 @@
     "team": "삼성",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 23,
     "backNumber": 56,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/55425.jpg"
@@ -433,8 +433,8 @@
     "name": "김성윤",
     "team": "삼성",
     "position": "외야수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 27,
     "backNumber": 39,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/67449.jpg"
@@ -445,7 +445,7 @@
     "team": "삼성",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 22,
     "backNumber": 30,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/52430.jpg"
@@ -467,7 +467,7 @@
     "team": "삼성",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 25,
     "backNumber": 58,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/50458.jpg"
@@ -499,8 +499,8 @@
     "name": "김현준",
     "team": "삼성",
     "position": "외야수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 23,
     "backNumber": 44,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/51417.jpg"
@@ -510,8 +510,8 @@
     "name": "디아즈",
     "team": "삼성",
     "position": "내야수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 29,
     "backNumber": 0,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/54400.jpg"
@@ -522,7 +522,7 @@
     "team": "삼성",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 32,
     "backNumber": 16,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/62234.jpg"
@@ -555,7 +555,7 @@
     "team": "삼성",
     "position": "포수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 36,
     "backNumber": 52,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/62244.jpg"
@@ -576,8 +576,8 @@
     "name": "배찬승",
     "team": "삼성",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 20,
     "backNumber": 55,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/55455.jpg"
@@ -587,8 +587,8 @@
     "name": "백정현",
     "team": "삼성",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 39,
     "backNumber": 29,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/77446.jpg"
@@ -610,7 +610,7 @@
     "team": "삼성",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 26,
     "backNumber": 53,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/69403.jpg"
@@ -631,8 +631,8 @@
     "name": "오러클린",
     "team": "삼성",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 26,
     "backNumber": 0,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/56464.jpg"
@@ -653,8 +653,8 @@
     "name": "이승민",
     "team": "삼성",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 25,
     "backNumber": 28,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/50464.jpg"
@@ -664,8 +664,8 @@
     "name": "이승현",
     "team": "삼성",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 24,
     "backNumber": 57,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/51454.jpg"
@@ -698,7 +698,7 @@
     "team": "삼성",
     "position": "투수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 24,
     "backNumber": 17,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/51460.jpg"
@@ -786,7 +786,7 @@
     "team": "삼성",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 42,
     "backNumber": 34,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/72443.jpg"
@@ -829,8 +829,8 @@
     "name": "김윤식",
     "team": "LG",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 26,
     "backNumber": 47,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/50157.jpg"
@@ -874,7 +874,7 @@
     "team": "LG",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 26,
     "backNumber": 2,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/69102.jpg"
@@ -884,8 +884,8 @@
     "name": "문성주",
     "team": "LG",
     "position": "외야수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 29,
     "backNumber": 8,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/68119.jpg"
@@ -929,7 +929,7 @@
     "team": "LG",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 36,
     "backNumber": 17,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/62415.jpg"
@@ -950,8 +950,8 @@
     "name": "손주영",
     "team": "LG",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 27,
     "backNumber": 29,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/67143.jpg"
@@ -961,8 +961,8 @@
     "name": "송승기",
     "team": "LG",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 24,
     "backNumber": 13,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/51111.jpg"
@@ -984,7 +984,7 @@
     "team": "LG",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 30,
     "backNumber": 4,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/65207.jpg"
@@ -1006,7 +1006,7 @@
     "team": "LG",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 36,
     "backNumber": 10,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/79109.jpg"
@@ -1027,8 +1027,8 @@
     "name": "웰스",
     "team": "LG",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 29,
     "backNumber": 68,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/55348.jpg"
@@ -1039,7 +1039,7 @@
     "team": "LG",
     "position": "투수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 29,
     "backNumber": 54,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/50106.jpg"
@@ -1050,7 +1050,7 @@
     "team": "LG",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 24,
     "backNumber": 7,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/51100.jpg"
@@ -1060,8 +1060,8 @@
     "name": "이우찬",
     "team": "LG",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 34,
     "backNumber": 21,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/61145.jpg"
@@ -1127,7 +1127,7 @@
     "team": "LG",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 28,
     "backNumber": 53,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/50054.jpg"
@@ -1159,8 +1159,8 @@
     "name": "함덕주",
     "team": "LG",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 31,
     "backNumber": 11,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/63248.jpg"
@@ -1171,7 +1171,7 @@
     "team": "LG",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 32,
     "backNumber": 51,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/66108.jpg"
@@ -1226,7 +1226,7 @@
     "team": "두산",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 22,
     "backNumber": 2,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/53554.jpg"
@@ -1236,8 +1236,8 @@
     "name": "김인태",
     "team": "두산",
     "position": "외야수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 32,
     "backNumber": 33,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/63257.jpg"
@@ -1269,8 +1269,8 @@
     "name": "류승민",
     "team": "두산",
     "position": "외야수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 21,
     "backNumber": 14,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/53404.jpg"
@@ -1335,8 +1335,8 @@
     "name": "벤자민",
     "team": "두산",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 33,
     "backNumber": 48,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/52043.jpg"
@@ -1347,7 +1347,7 @@
     "team": "두산",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 38,
     "backNumber": 24,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/77532.jpg"
@@ -1358,7 +1358,7 @@
     "team": "두산",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 24,
     "backNumber": 62,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/51203.jpg"
@@ -1402,7 +1402,7 @@
     "team": "두산",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 24,
     "backNumber": 6,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/50208.jpg"
@@ -1434,8 +1434,8 @@
     "name": "이병헌",
     "team": "두산",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 23,
     "backNumber": 29,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/52204.jpg"
@@ -1478,8 +1478,8 @@
     "name": "잭로그",
     "team": "두산",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 30,
     "backNumber": 39,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/55239.jpg"
@@ -1489,8 +1489,8 @@
     "name": "정수빈",
     "team": "두산",
     "position": "외야수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 35,
     "backNumber": 31,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/79231.jpg"
@@ -1501,7 +1501,7 @@
     "team": "두산",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 32,
     "backNumber": 51,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/66209.jpg"
@@ -1522,8 +1522,8 @@
     "name": "최승용",
     "team": "두산",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 25,
     "backNumber": 28,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/51264.jpg"
@@ -1545,7 +1545,7 @@
     "team": "두산",
     "position": "투수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 25,
     "backNumber": 42,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/52206.jpg"
@@ -1567,7 +1567,7 @@
     "team": "두산",
     "position": "투수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 31,
     "backNumber": 0,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/56218.jpg"
@@ -1577,8 +1577,8 @@
     "name": "타카다",
     "team": "두산",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 23,
     "backNumber": 12,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/56212.jpg"
@@ -1588,8 +1588,8 @@
     "name": "곽도규",
     "team": "KIA",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 22,
     "backNumber": 0,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/53609.jpg"
@@ -1600,7 +1600,7 @@
     "team": "KIA",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 29,
     "backNumber": 14,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/66614.jpg"
@@ -1632,8 +1632,8 @@
     "name": "김범수",
     "team": "KIA",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 30,
     "backNumber": 49,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/65769.jpg"
@@ -1687,8 +1687,8 @@
     "name": "나성범",
     "team": "KIA",
     "position": "외야수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 36,
     "backNumber": 47,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/62947.jpg"
@@ -1731,8 +1731,8 @@
     "name": "박상준",
     "team": "KIA",
     "position": "내야수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 24,
     "backNumber": 50,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/52634.jpg"
@@ -1743,7 +1743,7 @@
     "team": "KIA",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 19,
     "backNumber": 15,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/55636.jpg"
@@ -1753,8 +1753,8 @@
     "name": "박정우",
     "team": "KIA",
     "position": "외야수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 28,
     "backNumber": 1,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/67609.jpg"
@@ -1797,8 +1797,8 @@
     "name": "양현종",
     "team": "KIA",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 38,
     "backNumber": 54,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/77637.jpg"
@@ -1808,8 +1808,8 @@
     "name": "오선우",
     "team": "KIA",
     "position": "내야수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 29,
     "backNumber": 56,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/69636.jpg"
@@ -1841,8 +1841,8 @@
     "name": "이의리",
     "team": "KIA",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 24,
     "backNumber": 48,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/51648.jpg"
@@ -1853,7 +1853,7 @@
     "team": "KIA",
     "position": "투수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 36,
     "backNumber": 44,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/60768.jpg"
@@ -1886,7 +1886,7 @@
     "team": "KIA",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 20,
     "backNumber": 12,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/55926.jpg"
@@ -1907,8 +1907,8 @@
     "name": "최지민",
     "team": "KIA",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 22,
     "backNumber": 39,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/52639.jpg"
@@ -1919,7 +1919,7 @@
     "team": "KIA",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 32,
     "backNumber": 26,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/56626.jpg"
@@ -1930,7 +1930,7 @@
     "team": "KIA",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 32,
     "backNumber": 30,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/62700.jpg"
@@ -1952,7 +1952,7 @@
     "team": "KIA",
     "position": "포수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 27,
     "backNumber": 25,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/68646.jpg"
@@ -1963,7 +1963,7 @@
     "team": "KIA",
     "position": "투수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 19,
     "backNumber": 67,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/55267.jpg"
@@ -1984,8 +1984,8 @@
     "name": "강건우",
     "team": "한화",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 19,
     "backNumber": 69,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/56769.jpg"
@@ -1996,7 +1996,7 @@
     "team": "한화",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 27,
     "backNumber": 50,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/68050.jpg"
@@ -2017,8 +2017,8 @@
     "name": "권민규",
     "team": "한화",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 20,
     "backNumber": 64,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/55764.jpg"
@@ -2072,7 +2072,7 @@
     "name": "류현진",
     "team": "한화",
     "position": "투수",
-    "throws": "우",
+    "throws": "좌",
     "bats": "우",
     "age": 39,
     "backNumber": 99,
@@ -2084,7 +2084,7 @@
     "team": "한화",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 22,
     "backNumber": 51,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/53764.jpg"
@@ -2161,7 +2161,7 @@
     "team": "한화",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 19,
     "backNumber": 54,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/56754.jpg"
@@ -2171,8 +2171,8 @@
     "name": "왕옌청",
     "team": "한화",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 25,
     "backNumber": 19,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/56719.jpg"
@@ -2205,7 +2205,7 @@
     "team": "한화",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 29,
     "backNumber": 5,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/65703.jpg"
@@ -2292,8 +2292,8 @@
     "name": "조동욱",
     "team": "한화",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 21,
     "backNumber": 57,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/54768.jpg"
@@ -2315,7 +2315,7 @@
     "team": "한화",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 26,
     "backNumber": 41,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/50707.jpg"
@@ -2348,7 +2348,7 @@
     "team": "한화",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "양",
     "age": 27,
     "backNumber": 30,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/54730.jpg"
@@ -2381,7 +2381,7 @@
     "team": "한화",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 26,
     "backNumber": 95,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/54795.jpg"
@@ -2391,8 +2391,8 @@
     "name": "황준서",
     "team": "한화",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 20,
     "backNumber": 29,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/54729.jpg"
@@ -2402,8 +2402,8 @@
     "name": "고준휘",
     "team": "NC",
     "position": "외야수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 18,
     "backNumber": 49,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/56949.jpg"
@@ -2413,8 +2413,8 @@
     "name": "구창모",
     "team": "NC",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 29,
     "backNumber": 59,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/65933.jpg"
@@ -2435,8 +2435,8 @@
     "name": "김영규",
     "team": "NC",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 26,
     "backNumber": 17,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/68900.jpg"
@@ -2447,7 +2447,7 @@
     "team": "NC",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "양",
     "age": 24,
     "backNumber": 7,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/51907.jpg"
@@ -2535,7 +2535,7 @@
     "team": "NC",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 33,
     "backNumber": 16,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/66965.jpg"
@@ -2579,7 +2579,7 @@
     "team": "NC",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 33,
     "backNumber": 2,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/62907.jpg"
@@ -2590,7 +2590,7 @@
     "team": "NC",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 25,
     "backNumber": 53,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/50996.jpg"
@@ -2634,7 +2634,7 @@
     "team": "NC",
     "position": "투수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 25,
     "backNumber": 45,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/69962.jpg"
@@ -2678,7 +2678,7 @@
     "team": "NC",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 26,
     "backNumber": 34,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/68904.jpg"
@@ -2721,8 +2721,8 @@
     "name": "임정호",
     "team": "NC",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 36,
     "backNumber": 30,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/63959.jpg"
@@ -2766,7 +2766,7 @@
     "team": "NC",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 26,
     "backNumber": 14,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/69992.jpg"
@@ -2798,8 +2798,8 @@
     "name": "한석현",
     "team": "NC",
     "position": "외야수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 32,
     "backNumber": 33,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/64101.jpg"
@@ -2810,7 +2810,7 @@
     "team": "롯데",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 25,
     "backNumber": 2,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/69517.jpg"
@@ -2821,7 +2821,7 @@
     "team": "롯데",
     "position": "투수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 31,
     "backNumber": 19,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/65522.jpg"
@@ -2831,8 +2831,8 @@
     "name": "김동혁",
     "team": "롯데",
     "position": "외야수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 25,
     "backNumber": 50,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/52504.jpg"
@@ -2854,7 +2854,7 @@
     "team": "롯데",
     "position": "투수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 33,
     "backNumber": 34,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/62528.jpg"
@@ -2864,8 +2864,8 @@
     "name": "김진욱",
     "team": "롯데",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 24,
     "backNumber": 15,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/51516.jpg"
@@ -2887,7 +2887,7 @@
     "team": "롯데",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 24,
     "backNumber": 51,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/51551.jpg"
@@ -2898,7 +2898,7 @@
     "team": "롯데",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 37,
     "backNumber": 52,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/62931.jpg"
@@ -2909,7 +2909,7 @@
     "team": "롯데",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "양",
     "age": 31,
     "backNumber": 29,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/54529.jpg"
@@ -2942,7 +2942,7 @@
     "team": "롯데",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 33,
     "backNumber": 53,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/62802.jpg"
@@ -2953,7 +2953,7 @@
     "team": "롯데",
     "position": "투수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 22,
     "backNumber": 36,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/56536.jpg"
@@ -3063,7 +3063,7 @@
     "team": "롯데",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 22,
     "backNumber": 30,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/54598.jpg"
@@ -3074,7 +3074,7 @@
     "team": "롯데",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 26,
     "backNumber": 7,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/68507.jpg"
@@ -3117,8 +3117,8 @@
     "name": "정현수",
     "team": "롯데",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 25,
     "backNumber": 57,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/54537.jpg"
@@ -3184,7 +3184,7 @@
     "team": "롯데",
     "position": "투수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 33,
     "backNumber": 17,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/68260.jpg"
@@ -3194,8 +3194,8 @@
     "name": "홍민기",
     "team": "롯데",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 25,
     "backNumber": 38,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/50596.jpg"
@@ -3206,7 +3206,7 @@
     "team": "롯데",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 28,
     "backNumber": 0,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/50500.jpg"
@@ -3227,8 +3227,8 @@
     "name": "김건우",
     "team": "SSG",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 24,
     "backNumber": 39,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/51867.jpg"
@@ -3261,7 +3261,7 @@
     "team": "SSG",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 37,
     "backNumber": 32,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/78224.jpg"
@@ -3294,7 +3294,7 @@
     "team": "SSG",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 28,
     "backNumber": 2,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/67893.jpg"
@@ -3304,8 +3304,8 @@
     "name": "박시후",
     "team": "SSG",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 25,
     "backNumber": 57,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/50812.jpg"
@@ -3315,8 +3315,8 @@
     "name": "베니지아노",
     "team": "SSG",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 28,
     "backNumber": 0,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/56841.jpg"
@@ -3348,7 +3348,7 @@
     "name": "에레디아",
     "team": "SSG",
     "position": "외야수",
-    "throws": "우",
+    "throws": "좌",
     "bats": "우",
     "age": 35,
     "backNumber": 27,
@@ -3426,7 +3426,7 @@
     "team": "SSG",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 25,
     "backNumber": 47,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/50820.jpg"
@@ -3437,7 +3437,7 @@
     "team": "SSG",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 23,
     "backNumber": 3,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/54812.jpg"
@@ -3514,7 +3514,7 @@
     "team": "SSG",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 27,
     "backNumber": 7,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/68868.jpg"
@@ -3525,7 +3525,7 @@
     "team": "SSG",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 29,
     "backNumber": 54,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/50854.jpg"
@@ -3546,8 +3546,8 @@
     "name": "한두솔",
     "team": "SSG",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 29,
     "backNumber": 34,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/68092.jpg"
@@ -3558,7 +3558,7 @@
     "team": "SSG",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 36,
     "backNumber": 35,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/62895.jpg"
@@ -3569,7 +3569,7 @@
     "team": "SSG",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 24,
     "backNumber": 97,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/55897.jpg"
@@ -3613,7 +3613,7 @@
     "team": "키움",
     "position": "투수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 19,
     "backNumber": 59,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/55359.jpg"
@@ -3623,8 +3623,8 @@
     "name": "김성민",
     "team": "키움",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 32,
     "backNumber": 8,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/67828.jpg"
@@ -3635,7 +3635,7 @@
     "team": "키움",
     "position": "투수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 28,
     "backNumber": 21,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/51301.jpg"
@@ -3646,7 +3646,7 @@
     "team": "키움",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 30,
     "backNumber": 10,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/65898.jpg"
@@ -3656,8 +3656,8 @@
     "name": "김재웅",
     "team": "키움",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 27,
     "backNumber": 28,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/67391.jpg"
@@ -3689,8 +3689,8 @@
     "name": "박정훈",
     "team": "키움",
     "position": "투수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 20,
     "backNumber": 94,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/55394.jpg"
@@ -3700,8 +3700,8 @@
     "name": "박주홍",
     "team": "키움",
     "position": "외야수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 25,
     "backNumber": 57,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/50357.jpg"
@@ -3756,7 +3756,7 @@
     "team": "키움",
     "position": "투수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 28,
     "backNumber": 61,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/51761.jpg"
@@ -3766,8 +3766,8 @@
     "name": "브룩스",
     "team": "키움",
     "position": "외야수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 31,
     "backNumber": 0,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/56322.jpg"
@@ -3778,7 +3778,7 @@
     "team": "키움",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 36,
     "backNumber": 14,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/78168.jpg"
@@ -3822,7 +3822,7 @@
     "team": "키움",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 19,
     "backNumber": 92,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/55392.jpg"
@@ -3877,7 +3877,7 @@
     "team": "키움",
     "position": "투수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 26,
     "backNumber": 48,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/56348.jpg"
@@ -3888,7 +3888,7 @@
     "team": "키움",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 25,
     "backNumber": 2,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/50167.jpg"
@@ -3910,7 +3910,7 @@
     "team": "키움",
     "position": "외야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 30,
     "backNumber": 17,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/64346.jpg"
@@ -3976,7 +3976,7 @@
     "team": "키움",
     "position": "내야수",
     "throws": "우",
-    "bats": "우",
+    "bats": "좌",
     "age": 38,
     "backNumber": 53,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/76267.jpg"
@@ -3986,8 +3986,8 @@
     "name": "추재현",
     "team": "키움",
     "position": "외야수",
-    "throws": "우",
-    "bats": "우",
+    "throws": "좌",
+    "bats": "좌",
     "age": 27,
     "backNumber": 27,
     "photoUrl": "https://lg32.koreabaseball.com/resources/images/players/2024/68362.jpg"
