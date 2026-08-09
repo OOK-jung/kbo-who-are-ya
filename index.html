@@ -1,257 +1,265 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KBO Who Are Ya? - 무한 야구 선수 맞히기</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KBO 선수 맞히기 게임</title>
   <style>
-    * { box-sizing: border-box; }
-    body {
-      font-family: 'Pretendard', -apple-system, sans-serif;
-      background-color: #121213;
-      color: #ffffff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 20px;
+    * {
+      box-sizing: border-box;
       margin: 0;
+      padding: 0;
     }
-    h1 { margin-bottom: 5px; color: #38bdf8; }
-    p.sub { color: #a1a1aa; font-size: 14px; margin-bottom: 25px; }
-
-    /* 검색창 영역 */
-    .search-container { position: relative; width: 100%; max-width: 400px; margin-bottom: 30px; }
-    input[type="text"] {
-      width: 100%; padding: 12px 16px; border-radius: 8px; border: 1px solid #3f3f46;
-      background-color: #27272a; color: white; font-size: 16px; outline: none;
-    }
-    input[type="text"]:focus { border-color: #38bdf8; }
-    
-    .dropdown {
-      position: absolute; top: 100%; left: 0; right: 0;
-      background-color: #27272a; border: 1px solid #3f3f46; border-radius: 8px;
-      max-height: 200px; overflow-y: auto; z-index: 10; display: none; margin-top: 5px;
-    }
-    .dropdown-item {
-      padding: 10px 16px; cursor: pointer; border-bottom: 1px solid #3f3f46;
-      display: flex; justify-content: space-between; align-items: center;
-    }
-    .dropdown-item:hover { background-color: #3f3f46; }
-    .dropdown-item span.team { font-size: 12px; color: #a1a1aa; }
-
-    /* 추측한 기록 보드 */
-    .board { width: 100%; max-width: 700px; display: flex; flex-direction: column; gap: 10px; }
-    .row { display: grid; grid-template-columns: 1.2fr repeat(6, 1fr); gap: 6px; text-align: center; }
-    
-    .tile {
-      padding: 12px 4px; border-radius: 6px; font-weight: bold; font-size: 14px;
-      display: flex; flex-direction: column; align-items: center; justify-content: center;
-      min-height: 60px;
-    }
-    .player-name-tile { background-color: #27272a; border: 1px solid #3f3f46; }
-    
-    /* 판정 색상 스타일 */
-    .status-correct { background-color: #15803d; color: white; } /* 초록색 (일치) */
-    .status-incorrect { background-color: #3f3f46; color: white; } /* 회색 (불일치) */
-    .arrow { font-size: 11px; margin-top: 2px; }
-
-    /* 성공 메시지 및 다시하기 버튼 */
-    .success-container {
-      display: none;
-      flex-direction: column;
+    body {
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+      background-color: #f3f4f6;
+      display: flex;
+      justify-content: center;
       align-items: center;
-      gap: 12px;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+    h1 {
+      font-size: 1.5rem;
       margin-bottom: 20px;
+      color: #1f2937;
     }
-    .success-msg {
-      background-color: #15803d; padding: 12px 20px; border-radius: 8px;
-      font-weight: bold; text-align: center;
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto 20px;
+      border: 4px solid #3b82f6;
+      background-color: #e5e7eb;
     }
-    .restart-btn {
-      background-color: #38bdf8; color: #0f172a; border: none;
-      padding: 10px 20px; font-size: 15px; font-weight: bold;
-      border-radius: 6px; cursor: pointer; transition: background 0.2s;
+    .info-list {
+      background-color: #f9fafb;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 20px;
+      text-align: left;
+      font-size: 0.95rem;
+      color: #374151;
     }
-    .restart-btn:hover { background-color: #0284c7; color: white; }
+    .info-item {
+      margin-bottom: 6px;
+    }
+    .info-item:last-child {
+      margin-bottom: 0;
+    }
+    .input-group {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 15px;
+    }
+    input[type="text"] {
+      flex: 1;
+      padding: 12px;
+      border: 2px solid #d1d5db;
+      border-radius: 8px;
+      font-size: 1rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    input[type="text"]:focus {
+      border-color: #3b82f6;
+    }
+    button {
+      padding: 12px 18px;
+      background-color: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    button:hover {
+      background-color: #2563eb;
+    }
+    .hint-container {
+      margin-top: 10px;
+    }
+    .btn-hint {
+      background: none;
+      border: none;
+      color: #6b7280;
+      font-size: 0.9rem;
+      text-decoration: underline;
+      cursor: pointer;
+      padding: 5px;
+    }
+    .btn-hint:hover {
+      color: #374151;
+      background: none;
+    }
+    .answer-box {
+      display: none;
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #fef3c7;
+      border: 1px solid #f59e0b;
+      border-radius: 8px;
+      color: #92400e;
+      font-weight: bold;
+      font-size: 0.95rem;
+    }
+    .result-msg {
+      margin-top: 10px;
+      font-weight: bold;
+      min-height: 24px;
+    }
+    .success { color: #10b981; }
+    .error { color: #ef4444; }
   </style>
 </head>
 <body>
 
-  <h1>⚾ KBO Who Are Ya?</h1>
-  <p class="sub">랜덤 KBO 선수를 맞혀보세요!</p>
+  <div class="card">
+    <h1>⚾ KBO 선수 맞히기</h1>
 
-  <!-- 성공 안내 및 다시하기 버튼 -->
-  <div id="successContainer" class="success-container">
-    <div class="success-msg">🎉 정답입니다! 멋지게 맞히셨습니다!</div>
-    <button class="restart-btn" onclick="startNewGame()">🔄 다음 게임 시작하기</button>
-  </div>
+    <!-- 선수 사진 -->
+    <img id="playerImg" class="profile-img" src="" alt="선수 사진" />
 
-  <!-- 검색 입력창 -->
-  <div class="search-container">
-    <input type="text" id="searchInput" placeholder="선수 이름을 입력하세요..." autocomplete="off">
-    <div id="dropdown" class="dropdown"></div>
-  </div>
+    <!-- 선수 힌트 프로필 정보 -->
+    <div class="info-list">
+      <div class="info-item"><b>소속구단:</b> <span id="infoTeam">-</span></div>
+      <div class="info-item"><b>포지션:</b> <span id="infoPosition">-</span></div>
+      <div class="info-item"><b>투타:</b> <span id="infoHand">-</span></div>
+      <div class="info-item"><b>등번호:</b> No.<span id="infoBackNum">-</span></div>
+      <div class="info-item"><b>만 나이:</b> <span id="infoAge">-</span>세</div>
+    </div>
 
-  <!-- 게임 결과 보드 -->
-  <div class="board" id="gameBoard">
-    <div class="row" style="font-weight: bold; color: #a1a1aa; font-size: 12px; margin-bottom: 5px;">
-      <div>선수명</div>
-      <div>소속팀</div>
-      <div>포지션</div>
-      <div>투구</div>
-      <div>타석</div>
-      <div>나이</div>
-      <div>등번호</div>
+    <!-- 💡 입력 영역 (Enter 키 이벤트 적용) -->
+    <div class="input-group">
+      <input 
+        type="text" 
+        id="playerInput" 
+        placeholder="선수 이름을 입력하세요" 
+        onkeydown="handleKeyDown(event)" 
+        autocomplete="off"
+      />
+      <button onclick="checkAnswer()">제출</button>
+    </div>
+
+    <!-- 결과 메시지 -->
+    <div id="resultMsg" class="result-msg"></div>
+
+    <!-- 💡 정답 보기 영역 -->
+    <div class="hint-container">
+      <button id="showAnswerBtn" class="btn-hint" onclick="toggleAnswer()">
+        💡 정답 보기
+      </button>
+      <div id="answerBox" class="answer-box"></div>
     </div>
   </div>
 
   <script>
-    let players = [];
-    let targetPlayer = null;
-    let isGameOver = false;
+    let playersData = [];
+    let currentPlayer = null;
 
-    // 1. JSON 파일 데이터 불러오기
-    async function loadPlayerData() {
+    // 1. JSON 파일 로드
+    async function loadPlayersData() {
       try {
-        const response = await fetch('./kbo_players.json');
-        players = await response.json();
-        
-        if (players.length === 0) {
-          alert("kbo_players.json 파일이 비어있습니다.");
-          return;
+        const response = await fetch('kbo_players.json');
+        playersData = await response.json();
+        if (playersData.length > 0) {
+          nextQuestion();
         }
-
-        // 데이터 로드 완료 후 첫 게임 시작
-        startNewGame();
-
       } catch (error) {
-        console.error("데이터 로딩 실패:", error);
-        alert("kbo_players.json 파일을 불러올 수 없습니다. 경로를 확인해 주세요.");
+        console.error("선수 데이터 로드 실패:", error);
+        document.getElementById('resultMsg').innerText = "데이터를 불러오지 못했습니다.";
       }
     }
 
-    // 2. 새로운 무작위 게임 시작하기 (랜덤 정답 뽑기)
-    function startNewGame() {
-      if (players.length === 0) return;
+    // 2. 다음 랜덤 문제 출제
+    function nextQuestion() {
+      // 정답 UI 및 입력창 초기화
+      resetAnswerUI();
 
-      // 💡 매 판 무작위(Random)로 정답 선수 선택
-      const targetIndex = Math.floor(Math.random() * players.length);
-      targetPlayer = players[targetIndex];
-      isGameOver = false;
+      const randomIndex = Math.floor(Math.random() * playersData.length);
+      currentPlayer = playersData[randomIndex];
 
-      // 개발용 정답 콘솔 출력
-      console.log("🎯 이번 판 정답 선수:", targetPlayer.name, targetPlayer);
+      // UI에 데이터 바인딩
+      document.getElementById('playerImg').src = currentPlayer.photoUrl || 'https://via.placeholder.com/180';
+      document.getElementById('infoTeam').innerText = currentPlayer.team;
+      document.getElementById('infoPosition').innerText = currentPlayer.position;
+      document.getElementById('infoHand').innerText = `${currentPlayer.throws}투${currentPlayer.bats}타`;
+      document.getElementById('infoBackNum').innerText = currentPlayer.backNumber;
+      document.getElementById('infoAge').innerText = currentPlayer.age;
+    }
 
-      // 화면 초기화
-      document.getElementById('successContainer').style.display = 'none';
-      
-      const searchInput = document.getElementById('searchInput');
-      searchInput.disabled = false;
-      searchInput.value = '';
-      
-      // 기존 판정 기록 타일들 삭제 (헤더 행만 남기고 제거)
-      const board = document.getElementById('gameBoard');
-      while (board.children.length > 1) {
-        board.removeChild(board.lastChild);
+    // 💡 3. Enter 키 제출 처리 함수
+    function handleKeyDown(event) {
+      if (event.key === 'Enter') {
+        checkAnswer();
       }
     }
 
-    // 3. 유저 추측 vs 정답 비교 함수
-    function comparePlayer(guess, target) {
-      const compareNum = (g, t) => g === t ? 'correct' : (g < t ? 'higher' : 'lower');
+    // 4. 정답 체크 함수
+    function checkAnswer() {
+      const inputElem = document.getElementById('playerInput');
+      const resultMsg = document.getElementById('resultMsg');
+      const userGuess = inputElem.value.trim();
 
-      return {
-        name: guess.name,
-        team: { val: guess.team, status: guess.team === target.team ? 'correct' : 'incorrect' },
-        position: { val: guess.position, status: guess.position === target.position ? 'correct' : 'incorrect' },
-        throws: { val: guess.throws + '투', status: guess.throws === target.throws ? 'correct' : 'incorrect' },
-        bats: { val: guess.bats + '타', status: guess.bats === target.bats ? 'correct' : 'incorrect' },
-        age: { val: guess.age + '세', status: compareNum(guess.age, target.age) },
-        backNumber: { val: 'No.' + guess.backNumber, status: compareNum(guess.backNumber, target.backNumber) },
-        isCorrect: guess.id === target.id
-      };
-    }
+      if (!userGuess) return;
 
-    // 4. 비교 결과를 화면 타일로 출력
-    function renderRow(result) {
-      const board = document.getElementById('gameBoard');
-      const row = document.createElement('div');
-      row.className = 'row';
-
-      const createTile = (data) => {
-        const div = document.createElement('div');
-        div.className = 'tile';
-        
-        if (typeof data === 'string') {
-          div.className += ' player-name-tile';
-          div.innerText = data;
-        } else {
-          div.className += ` status-${data.status === 'correct' ? 'correct' : 'incorrect'}`;
-          
-          let text = data.val;
-          if (data.status === 'higher') text += ' <span class="arrow">⬆️</span>';
-          if (data.status === 'lower') text += ' <span class="arrow">⬇️</span>';
-          div.innerHTML = text;
-        }
-        return div;
-      };
-
-      row.appendChild(createTile(result.name));
-      row.appendChild(createTile(result.team));
-      row.appendChild(createTile(result.position));
-      row.appendChild(createTile(result.throws));
-      row.appendChild(createTile(result.bats));
-      row.appendChild(createTile(result.age));
-      row.appendChild(createTile(result.backNumber));
-
-      board.appendChild(row);
-
-      // 정답 맞혔을 때
-      if (result.isCorrect) {
-        document.getElementById('successContainer').style.display = 'flex';
-        document.getElementById('searchInput').disabled = true;
-        isGameOver = true;
-      }
-    }
-
-    // 5. 검색창 자동완성 드롭다운 이벤트
-    const searchInput = document.getElementById('searchInput');
-    const dropdown = document.getElementById('dropdown');
-
-    searchInput.addEventListener('input', (e) => {
-      const keyword = e.target.value.trim();
-      dropdown.innerHTML = '';
-
-      if (!keyword || isGameOver) {
-        dropdown.style.display = 'none';
-        return;
-      }
-
-      const filtered = players.filter(p => p.name.includes(keyword)).slice(0, 5);
-
-      if (filtered.length > 0) {
-        dropdown.style.display = 'block';
-        filtered.forEach(player => {
-          const item = document.createElement('div');
-          item.className = 'dropdown-item';
-          item.innerHTML = `<span>${player.name}</span><span class="team">${player.team}</span>`;
-          
-          item.addEventListener('click', () => {
-            const result = comparePlayer(player, targetPlayer);
-            renderRow(result);
-            
-            searchInput.value = '';
-            dropdown.style.display = 'none';
-          });
-          dropdown.appendChild(item);
-        });
+      if (userGuess === currentPlayer.name) {
+        resultMsg.className = "result-msg success";
+        resultMsg.innerText = "🎉 정답입니다! 다음 문제로 이동합니다.";
+        setTimeout(() => {
+          nextQuestion();
+        }, 1200);
       } else {
-        dropdown.style.display = 'none';
+        resultMsg.className = "result-msg error";
+        resultMsg.innerText = "❌ 틀렸습니다. 다시 시도해 보세요!";
       }
-    });
+    }
 
-    // 최초 로드 실행
-    loadPlayerData();
+    // 💡 5. 정답 보기/숨기기 토글 함수
+    function toggleAnswer() {
+      const answerBox = document.getElementById('answerBox');
+      const showAnswerBtn = document.getElementById('showAnswerBtn');
+
+      if (!currentPlayer) return;
+
+      if (answerBox.style.display === 'none' || answerBox.style.display === '') {
+        answerBox.innerText = `정답: ${currentPlayer.name} (${currentPlayer.team})`;
+        answerBox.style.display = 'block';
+        showAnswerBtn.innerText = '🙈 정답 숨기기';
+      } else {
+        answerBox.style.display = 'none';
+        showAnswerBtn.innerText = '💡 정답 보기';
+      }
+    }
+
+    // 6. 다음 문제 이동 시 정답 UI 초기화
+    function resetAnswerUI() {
+      document.getElementById('playerInput').value = '';
+      document.getElementById('resultMsg').innerText = '';
+      document.getElementById('resultMsg').className = 'result-msg';
+
+      const answerBox = document.getElementById('answerBox');
+      const showAnswerBtn = document.getElementById('showAnswerBtn');
+
+      answerBox.style.display = 'none';
+      answerBox.innerText = '';
+      showAnswerBtn.innerText = '💡 정답 보기';
+    }
+
+    // 페이지 로드 시 시작
+    window.onload = loadPlayersData;
   </script>
 </body>
 </html>
